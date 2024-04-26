@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rancho&display=swap');
+*
+
+{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: 'Poppins',sans-serif;
+}
+body
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: linear-gradient(rgba(0, 0, 50, 0.8),rgba(0, 0, 50, 0.8)),url(home2.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	overflow-x: hidden;
+	min-height: 100vh;
+}
+#header
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 20px 35px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#header a
+{
+	color: #fff;
+	font-weight: 700;
+	font-size: 2em;
+	text-decoration: none;
+}
+ul
+{
+	padding 30px 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+ul li
+{
+	list-style: none;
+	margin-left: 20px;
+}
+ul li a
+{
+	text-decoration: none;
+	padding: 6px 15px;
+	color: #fff;
+	border-radius: 20px;
+}
+ul li a:hover,
+ul li a.active
+{
+	background: #094b65;
+	color: #fff;
+}
+.navigation
+{
+	position: relative;
+	display: flex;
+	top: -270px;
+	left: 850px;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+.navigation li
+{
+	list-style: none;
+}
+.navigation li a
+{
+	text-decoration: none;
+	padding: 6px 15px;
+	color: #fff;
+	border-radius: 20px;
+}
+.navigation li a:hover,
+.navigation li a.active
+{
+	background: #112434;
+	color: #fff;
+}
+.about
+{
+	top: 0px;
+	left: -450px;
+	position: relative;
+	padding: 100px;
+}
+.about h2
+{
+	font-size: 3em;
+	color: #fff;
+	margin-bottom: 20px;
+}
+.about p
+{
+	font-size: 1em;
+	color: #fff;
+}
